@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image';
 const Hero2 = () => {
   return (
     <div className="bg-black flex flex-co lg:flex-row justify-between items-center">
@@ -10,15 +10,16 @@ const Hero2 = () => {
        Use the web clipper extension, available on Chrome and Firefox, to save Web 
        Pages or tasks screenshoots as notes.
         </p>
-        <button className="bg-[#d72307] flex items-center justify-center py-2 px-4 rounded-lg mt-6 shadow-black">Let's Go</button>
+        <button className="bg-[#d72307] flex items-center justify-center py-2 px-4 rounded-lg mt-6 shadow-black">Lets Go</button>
       </div>
 
       <div className="py-8 px-8 md:py-16 md:px-20 lg:py-20 lg:px-28">
-      <img
-          src="img2.png"
-          alt=""
-          className="w-[800px] md:w-[250px] lg:w-[700px]"
-        />
+      <div
+          className="w-[800px] md:w-[250px] lg:w-[400px] bg-cover"
+          style={{
+            backgroundImage: "url('/pic2.jpg')",
+          }}
+        ></div>
       </div>
     </div>
   )

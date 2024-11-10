@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image';
 const Hero2 = () => {
   return (
     <div className="bg-white flex flex-co lg:flex-row justify-between">
@@ -15,7 +15,7 @@ const Hero2 = () => {
 
       <div className="py-8 px-8 md:py-16 md:px-20 lg:py-20 lg:px-28">
       <img
-          src="img2.png"
+          src="pic2.png"
           alt=""
           className="w-[800px] md:w-[250px] lg:w-[700px]"
         />

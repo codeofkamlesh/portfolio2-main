@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-
+import Image from 'next/image';
 const Hero1 = () => {
   return (
     <div className="bg-black flex flex-col lg:flex-row justify-between">
@@ -20,11 +20,12 @@ const Hero1 = () => {
         </button>
       </div>
       <div className="py-8 px-8 md:py-16 md:px-20 lg:py-20 lg:px-28">
-        <img
-          src="img1.png"
-          alt=""
-          className="w-[800px] md:w-[250px] lg:w-[400px]"
-        />
+        <div
+          className="w-[800px] md:w-[250px] lg:w-[400px] bg-cover"
+          style={{
+            backgroundImage: "url('/pic2.jpg')",
+          }}
+        ></div>
       </div>
     </div>
   );
