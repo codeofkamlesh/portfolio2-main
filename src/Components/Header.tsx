@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 const Header = () => {
   return (
     <div className="flex flex-col md:flex-row justify-between bg-black text-white px-6 py-4">
-      <div className="text-lg font-bold">Zubair Logo</div>
+      <div className="text-lg font-bold">Company Logo</div>
       <div className="flex flex-col md:flex-row gap-4 md:gap-10 mt-4 md:mt-0">
         <div>Products</div>
         <div>Solutions</div>
