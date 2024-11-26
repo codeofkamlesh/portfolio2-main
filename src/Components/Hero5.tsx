@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
-import styles from '../styles/Hero5.module.css';
+import styles from '../styles/hero5.module.css';
 
 const Hero3: React.FC = () => {
   return (

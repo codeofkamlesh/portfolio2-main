@@ -1,6 +1,6 @@
 import React from 'react';
 import { CiCircleCheck } from 'react-icons/ci';
-import styles from '../styles/Hero6.module.css';
+import styles from '../styles/hero6.module.css';
 
 const Hero6: React.FC = () => {
   return (

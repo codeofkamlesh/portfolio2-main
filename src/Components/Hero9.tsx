@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/Hero9.module.css';
+import styles from '../styles/hero9.module.css';
 
 const Hero9: React.FC = () => {
   return (
