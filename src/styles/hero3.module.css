@@ -1,0 +1,91 @@
+.hero3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .hero3 {
+      flex-direction: row;
+      padding: 40px;
+    }
+  }
+  
+  .imageWrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/pic3.png");  
+}
+
+  
+  @media (min-width: 768px) {
+    .image {
+      width: 400px;
+      height: 400px;
+    }
+  }
+  
+  .content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      text-align: left;
+    }
+  }
+  
+  .heading {
+    color: #11ff80;
+    font-weight: 800;
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  @media (min-width: 768px) {
+    .heading {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .heading {
+      font-size: 3rem;
+    }
+  }
+  
+  .description {
+    color: black;
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+  
+  .ctaButton {
+    background-color: #11ff80;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .ctaButton:hover {
+    background-color: #0cba5f;
+  }
+  

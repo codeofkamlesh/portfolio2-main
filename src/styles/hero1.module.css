@@ -1,0 +1,99 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(90, 90, 90);
+  padding: 20px;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    padding: 40px;
+  }
+}
+
+.content {
+  flex: 1;
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .content {
+    text-align: left;
+  }
+}
+
+.heading {
+  color: #11ff80;
+  font-weight: 800;
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading {
+    font-size: 3rem;
+  }
+}
+
+.description {
+  color: white;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.tryButton {
+  background-color: #d72307;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.tryButton:hover {
+  background-color: #a61905;
+}
+
+.imageWrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+  background-image: url("/pic1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .image {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .image {
+    width: 500px;
+    height: 500px;
+  }
+}

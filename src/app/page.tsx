@@ -13,7 +13,7 @@ import Hero9 from "@/Components/Hero9";
 const page = () => {
   return (
     <>
-      <Header   />
+      <Header/>
       <Hero1 />
       <Hero2 />
       <Hero3 />

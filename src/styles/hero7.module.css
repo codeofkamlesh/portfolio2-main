@@ -1,0 +1,56 @@
+.heroContainer {
+    padding: 50px 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .heroContainer {
+      padding: 50px 80px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .heroContainer {
+      padding: 50px 120px;
+    }
+  }
+  
+  .heading {
+    font-size: 1.875rem;
+    font-weight: 800;
+    color: #22c55e;
+    margin-top: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .heading {
+      font-size: 2.5rem;
+    }
+  }
+  
+  .description {
+    margin-top: 1.25rem;
+    color: white;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .description {
+      font-size: 1.125rem;
+    }
+  }
+  
+  .button {
+    background-color: #d72307;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+  }
+  

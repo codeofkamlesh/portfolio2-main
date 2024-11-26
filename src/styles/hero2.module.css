@@ -1,0 +1,93 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .hero {
+      flex-direction: row;
+      padding: 40px;
+    }
+  }
+  
+  .content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      text-align: left;
+    }
+  }
+  
+  .heading {
+    color: black;
+    font-weight: 800;
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  
+  @media (min-width: 768px) {
+    .heading {
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .heading {
+      font-size: 3rem;
+    }
+  }
+  
+  .description {
+    color: black;
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+  
+  .getStartedButton {
+    background-color: #d72307;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .getStartedButton:hover {
+    background-color: #a61905;
+  }
+  
+  .imageWrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 250px;
+    height: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .image {
+      width: 400px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .image {
+      width: 500px;
+    }
+  }
+  

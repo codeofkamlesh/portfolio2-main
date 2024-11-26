@@ -1,20 +1,20 @@
-import React from 'react'
+import React from 'react';
+import styles from '../styles/Hero9.module.css';
 
-const Hero9 = () => {
+const Hero9: React.FC = () => {
   return (
-    <div className='bg-white'>
-        <div>
-            <h1 className='text-6xl font-extrabold text-center leading-[88px]'>Our sponsors</h1>
-        </div>
-
-        <div className='flex justify-evenly mt-11'>
-            <span>A</span>
-            <span>A</span>
-            <span>A</span>
-            <span>A</span>
-        </div>
+    <div className={styles.heroContainer}>
+      <div className={styles.titleContainer}>
+        <h1 className={styles.title}>Our Sponsors</h1>
+      </div>
+      <div className={styles.sponsorsContainer}>
+        <div className={styles.sponsorBox}>First</div>
+        <div className={styles.sponsorBox}>Second</div>
+        <div className={styles.sponsorBox}>Third</div>
+        <div className={styles.sponsorBox}>Fourth</div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero9
+export default Hero9;

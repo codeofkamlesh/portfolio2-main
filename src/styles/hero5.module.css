@@ -1,0 +1,113 @@
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+  }
+  
+  @media (min-width: 1024px) {
+    .heroContainer {
+      flex-direction: row;
+    }
+  }
+  
+  .imageContainer {
+    padding: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .imageContainer {
+      padding: 4rem;
+    }
+  }
+  
+  .image {
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/pic2.jpg');
+  }
+  
+  @media (min-width: 768px) {
+    .image {
+      width: 250px;
+      padding-top: 0;
+      height: 250px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .image {
+      width: 400px;
+      height: 400px;
+    }
+  }
+  
+  .content {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      padding: 5rem 4rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .content {
+      padding: 7rem 8rem;
+      text-align: left;
+    }
+  }
+  
+  .heading {
+    color: #38a169;
+    font-weight: 800;
+    font-size: 1.875rem;
+    font-family: sans-serif;
+  }
+  
+  @media (min-width: 768px) {
+    .heading {
+      font-size: 2.25rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .heading {
+      font-size: 3rem;
+    }
+  }
+  
+  .description {
+    color: black;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .description {
+      margin-top: 1.25rem;
+      font-size: 1.125rem;
+    }
+  }
+  
+  .button {
+    background-color: #38a169;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .icon {
+    margin-left: 0.5rem;
+  }
+  

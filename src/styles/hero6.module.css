@@ -1,0 +1,91 @@
+.heroContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .header {
+    margin-left: 2rem;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .title {
+      font-size: 2.5rem;
+    }
+  }
+  
+  .subtitle {
+    margin-top: 1rem;
+    line-height: 1.5;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    width: 310px;
+    min-height: 420px;
+    border: 2px solid #4c51bf;
+    border-radius: 15px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .featuredCard {
+    background-color: #ff1c1c;
+    width: 310px;
+    height: 450px;
+    border-radius: 15px;
+  }
+  
+  .planName {
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  
+  .planPrice {
+    margin-top: 1rem;
+    color: #ff1c1c;
+    font-size: 1.25rem;
+  }
+  
+  .planDescription {
+    margin-top: 1rem;
+  }
+  
+  .features {
+    margin-top: 1rem;
+    line-height: 1.5;
+  }
+  
+  .icon {
+    color: #ff1c1c;
+    margin-right: 0.5rem;
+  }
+  
+  .button {
+    background-color: #d72307;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  

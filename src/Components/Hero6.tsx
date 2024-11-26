@@ -1,45 +1,62 @@
-import React from 'react'
-import { CiCircleCheck } from "react-icons/ci";
+import React from 'react';
+import { CiCircleCheck } from 'react-icons/ci';
+import styles from '../styles/Hero6.module.css';
 
-const Hero6 = () => {
+const Hero6: React.FC = () => {
   return (
-    <div className="bg-white border-x-gray-800 flex-co lg:flex-row justify-between items-center">
-        <div className='ml-36'>
-            <h1 className='flex justify-center text-5xl font-extrabold mt-8'>Choose Your Palan</h1>
-            <p className='flex justify-center text-center mt-5
-            '>Wherther You Want to get Oragnizad, keep Your Personal life on track, or most, or boot or workspace Producivitly, Evernote has the <br />  right plan for you</p>
+    <div className={styles.heroContainer}>
+      <div className={styles.header}>
+        <h1 className={styles.title}>Choose Your Plan</h1>
+        <p className={styles.subtitle}>
+          Whether you want to get organized, keep your personal life on track, or boost workspace productivity, Evernote has the right plan for you.
+        </p>
+      </div>
+      <div className={styles.cards}>
+        <div className={styles.card}>
+          <p className={styles.planName}>Free</p>
+          <p className={styles.planPrice}>$0</p>
+          <p className={styles.planDescription}>Capture ideas and find them quickly</p>
+          <div className={styles.features}>
+            <p><CiCircleCheck className={styles.icon} /> Sync unlimited devices</p>
+            <p><CiCircleCheck className={styles.icon} /> 10 GB monthly uploads</p>
+            <p><CiCircleCheck className={styles.icon} /> 200 MB max note size</p>
+            <p><CiCircleCheck className={styles.icon} /> Customize home dashboard and access extra</p>
+            <p><CiCircleCheck className={styles.icon} /> Connect primary Google Calendar account</p>
+            <p><CiCircleCheck className={styles.icon} /> Add due dates, reminders, and notifications to tasks</p>
+          </div>
+          <button className={styles.button}>Try Writepace Free</button>
         </div>
-        <div className='flex gap-5 justify-center mt-10'>
-        <div className='w-[310px] h-[420px] mt-8 rounded-[15px] border-solid border-2 border-indigo-600 px-6 py-6'>
-            <p className=''>Free</p>
-            <p className='mt-4'>$ 0</p>
-            <p className='mt-3'>Capture Ides and find them quickly </p>
-            <p className='flex'><CiCircleCheck className='text-[#FF1C1C]'/>Sync Unlimited devices</p>
-            <p className='flex'><CiCircleCheck className='text-[#FF1C1C]'/>10 GB monthly uploads</p>
-            <p className='flex'><CiCircleCheck className='text-[#FF1C1C]'/>200 MB max not size</p>
-            <p className='flex'><CiCircleCheck className='text-[#FF1C1C]'/>Customize Home dashbord and access extra</p>
-            <p className='flex'><CiCircleCheck className='text-[#FF1C1C]'/>Connect primary Google caleander account</p>
-            <p className='flex'><CiCircleCheck className='text-[#FF1C1C]'/>add due, dates, remaindes,and notifications to yout tasks.</p>
-            <button className="bg-[#d72307] flex items-center justify-center py-2 px-4 rounded-lg mt-6">
-            Try Writepace Free</button>
-           </div>
-        <div className='bg-[#FF1C1C] w-[310px] h-[450px] rounded-[15px]'></div>
-        <div className='w-[310px] h-[420px] mt-8 rounded-[15px] border-solid border-2 border-indigo-600 px-6 py-6'>
-            <p className='font-extrabold font-sans text-2xl '>Free</p>
-            <p className='mt-4 text-[#FF1C1C]'>$ 0</p>
-            <p className='mt-3'>Capture Ides and find them quickly </p>
-            <p className='flex'><CiCircleCheck className='text-[#FF1C1C]'/>Sync Unlimited devices</p>
-            <p className='flex'><CiCircleCheck className='text-[#FF1C1C]'/>10 GB monthly uploads</p>
-            <p className='flex'><CiCircleCheck className='text-[#FF1C1C]'/>200 MB max not size</p>
-            <p className='flex'><CiCircleCheck className='text-[#FF1C1C]'/>Customize Home dashbord and access extra</p>
-            <p className='flex'><CiCircleCheck className='text-[#FF1C1C]'/>Connect primary Google caleander account</p>
-            <p className='flex'><CiCircleCheck className='text-[#FF1C1C]'/>add due, dates, remaindes,and notifications to yout tasks.</p>
-            <button className="bg-[#d72307] flex items-center justify-center py-2 px-4 rounded-lg mt-6">
-            Try Writepace Free</button>
-           </div>
+        <div className={styles.card}>
+          <p className={styles.planName}>Free</p>
+          <p className={styles.planPrice}>$0</p>
+          <p className={styles.planDescription}>Capture ideas and find them quickly</p>
+          <div className={styles.features}>
+            <p><CiCircleCheck className={styles.icon} /> Sync unlimited devices</p>
+            <p><CiCircleCheck className={styles.icon} /> 10 GB monthly uploads</p>
+            <p><CiCircleCheck className={styles.icon} /> 200 MB max note size</p>
+            <p><CiCircleCheck className={styles.icon} /> Customize home dashboard and access extra</p>
+            <p><CiCircleCheck className={styles.icon} /> Connect primary Google Calendar account</p>
+            <p><CiCircleCheck className={styles.icon} /> Add due dates, reminders, and notifications to tasks</p>
+          </div>
+          <button className={styles.button}>Try Writepace Free</button>
         </div>
+        <div className={styles.card}>
+          <p className={styles.planName}>Free</p>
+          <p className={styles.planPrice}>$0</p>
+          <p className={styles.planDescription}>Capture ideas and find them quickly</p>
+          <div className={styles.features}>
+            <p><CiCircleCheck className={styles.icon} /> Sync unlimited devices</p>
+            <p><CiCircleCheck className={styles.icon} /> 10 GB monthly uploads</p>
+            <p><CiCircleCheck className={styles.icon} /> 200 MB max note size</p>
+            <p><CiCircleCheck className={styles.icon} /> Customize home dashboard and access extra</p>
+            <p><CiCircleCheck className={styles.icon} /> Connect primary Google Calendar account</p>
+            <p><CiCircleCheck className={styles.icon} /> Add due dates, reminders, and notifications to tasks</p>
+          </div>
+          <button className={styles.button}>Try Writepace Free</button>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero6
+export default Hero6;

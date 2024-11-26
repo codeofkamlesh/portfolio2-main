@@ -1,0 +1,73 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.logo {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.loginButton {
+  background-color: #11ff80;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.tryButton {
+  background-color: #d72307;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.tryButton .icon {
+  margin-left: 8px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    padding: 16px 48px;
+  }
+
+  .logo {
+    font-size: 1.25rem;
+  }
+
+  .navLinks {
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 0;
+  }
+
+  .buttons {
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 0;
+  }
+}

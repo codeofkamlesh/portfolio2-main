@@ -1,0 +1,63 @@
+.heroContainer {
+    background-color: white;
+    padding: 2rem 1rem;
+  }
+  
+  .titleContainer {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+  
+  @media (min-width: 768px) {
+    .title {
+      font-size: 3rem;
+      line-height: 1.3;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .title {
+      font-size: 4rem;
+      line-height: 1.4;
+    }
+  }
+  
+  .sponsorsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+  }
+  
+  .sponsorBox {
+    background-color: #f3f3f3;
+    color: black;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0.5rem;
+    flex: 1;
+    max-width: 150px;
+  }
+  
+  @media (min-width: 768px) {
+    .sponsorBox {
+      font-size: 1.125rem;
+      max-width: 200px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .sponsorBox {
+      font-size: 1.25rem;
+      max-width: 250px;
+    }
+  }
+  
